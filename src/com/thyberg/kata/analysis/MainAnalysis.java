@@ -1,4 +1,4 @@
-package com.thyberg.kata;
+package com.thyberg.kata.analysis;
 
 import java.io.IOException;
 import java.nio.file.Files;

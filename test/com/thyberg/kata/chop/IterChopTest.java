@@ -1,5 +1,6 @@
-package com.thyberg.kata;
+package com.thyberg.kata.chop;
 
+import com.thyberg.kata.chop.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -12,13 +13,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ChopTest {
-
-    private static final List<Integer> MANY_VALUES = new ArrayList<>(
-            Arrays.asList(1,3,5,7,9,10,11,13,15,19,30,40,56,76,89,100));
-
-    private static final List<Integer> SINGLE_VALUE = new ArrayList<>(
-            Collections.singletonList(40));
+class IterChopTest {
 
     @ParameterizedTest
     @MethodSource("localParameters")

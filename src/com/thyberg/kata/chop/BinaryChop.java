@@ -1,4 +1,4 @@
-package com.thyberg.kata;
+package com.thyberg.kata.chop;
 
 import java.util.ArrayList;
 import java.util.Arrays;
